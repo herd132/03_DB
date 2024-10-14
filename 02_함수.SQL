@@ -75,7 +75,7 @@ WHERE ABS(10) = ABS(-10); -- WHERE 절 함수 작성 가능
 -- MOD(숫자 | 컬럼명, 숫자 | 컬럼명) : 나머지 값 반환
 
 --EMPLOYEE 테이블에서 사원의 월급을 100만으로 나눴을 때 나머지 조회
-SELECT EMP_NAME, SALARY, MOD(SALRARY, 1000000)
+SELECT EMP_NAME, SALARY, MOD(SALARY, 1000000)
 FROM EMPLOYEE;
 
 -- EMPOYEE 테이블에서 사번이 짝수인 사원의 사번, 이름 조회
